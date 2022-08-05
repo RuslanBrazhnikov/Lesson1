@@ -7,3 +7,14 @@
 // 782 -> 2
 // 918 -> 8
 
+
+    Console.WriteLine("Введите трехзначное число: ");
+    int num = int.Parse(Console.ReadLine());
+    if (num >= 100 && num < 1000)
+    {
+        Console.WriteLine($"Последняя цифра числа = {num % 10} ");
+    }
+    else
+    {
+        Console.WriteLine("Число не трехзначное!");
+    }
