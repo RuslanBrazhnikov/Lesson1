@@ -4,7 +4,7 @@
 // 5 -> Пятница
 
 Console.WriteLine("Введите число от 1 до 7: ");
-int num = int.Parse(Console.ReadLine());
+int num = Convert.ToInt32(Console.ReadLine());
 
 if (num == 1)
 {
@@ -38,3 +38,5 @@ else if (num > 7)
 {
     Console.WriteLine("Нет! Введите число меньше 7!");
 }
+
+
